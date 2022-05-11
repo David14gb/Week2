@@ -1,5 +1,13 @@
 import { Person } from "./person"
 
-class Contacts{
-    
+export class Contacts{
+    public people: Person[]
+
+    constructor(){
+        this.people = []
+    }
+    public printCalendar():void{
+        console.log(this.people);
+        
+    }
 }
