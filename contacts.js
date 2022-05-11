@@ -1,4 +1,4 @@
-let {Person} = require("./reto")
+let {Person} = require("./person")
 
 
 class Contacts {

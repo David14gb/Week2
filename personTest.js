@@ -1,4 +1,4 @@
-let {Person} = require("./reto")
+let {Person} = require("./person")
 
 let pepe = new Person(180, 65, 1995);
 pepe.hobbies = ["deporte", "Atleti", "gimnasio"];
